@@ -9,7 +9,7 @@ def load_library(file)
   }
   emoticons.each_pair{|key, value| 
     if library[:get_meaning]
-      library[:get_meaning]
+      library[:get_meaning][value[1]] = value[0]
     else
       library[:get_meaning] = { value[1] => value[0] }
     end
