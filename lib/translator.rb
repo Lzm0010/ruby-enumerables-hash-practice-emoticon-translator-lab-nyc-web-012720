@@ -11,7 +11,7 @@ def load_library(file)
     library[:get_meaning] = { value[1] => value[0] }
     library[:get_emoticon] = { value[0] => value[1]}
   }
-  
+  library
 end
 
 def get_japanese_emoticon
