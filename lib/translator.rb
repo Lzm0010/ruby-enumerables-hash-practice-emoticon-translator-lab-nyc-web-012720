@@ -9,6 +9,7 @@ def load_library(file)
   }
   emoticons.each_pair{|key, value| 
     library[:get_meaning] = { value[1] =>  }
+    library[:get_emoticon] = { value[0]}
   }
   
 end
