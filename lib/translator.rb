@@ -35,7 +35,7 @@ end
 def get_english_meaning(file, meaning)
   library = load_library(file)
   if library[:get_meaning][meaning]
-    return library[:get_emoticon][emoticon]
+    return library[:get_meaning][meaning]
   else
     return "Sorry, that emoticon was not found"
   end
