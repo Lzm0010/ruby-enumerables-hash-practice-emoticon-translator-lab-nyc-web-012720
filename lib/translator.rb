@@ -8,7 +8,7 @@ def load_library(file)
     :get_emoticon => {}
   }
   emoticons.each_pair{|key, value| 
-    puts "I'm key - #{key} and I'm value -#{value}."
+    library[:get_meaning]
   }
   
 end
