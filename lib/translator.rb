@@ -11,7 +11,7 @@ def load_library(file)
     if library[:get_meaning]
       library[:get_meaning][value[1]] = key
     else
-      library[:get_meaning] = { value[1] => value[0] }
+      library[:get_meaning] = { value[1] => key }
     end
     
     if library[:get_emoticon]
