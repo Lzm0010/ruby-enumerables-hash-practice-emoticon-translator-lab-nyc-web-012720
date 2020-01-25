@@ -16,6 +16,7 @@ def load_library(file)
     
     if library[:get_emoticon]
       library[:get_emoticon][value[0]] = value[1]
+    else
     library[:get_emoticon] = { value[0] => value[1] }
   }
   pp library
